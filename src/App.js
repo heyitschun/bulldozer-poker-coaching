@@ -7,8 +7,8 @@ import Nav from "./components/Nav";
 function App() {
   return (
     <div className="text-white bg-navy-900 min-h-screen flex flex-col">
-      <Nav className="w-full" />
       <Router className="">
+        <Nav className="w-full" />
         <div className="mt-10 px-4">
           <Switch>
             <Route exact path="/" component={Home} />
