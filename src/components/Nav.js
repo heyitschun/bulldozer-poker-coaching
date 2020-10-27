@@ -20,7 +20,7 @@ function Nav() {
   })
   
   return (
-    <nav className="pt-8">
+    <nav className="pt-8 bg-gray-900 text-white pb-4">
       <ul className="flex justify-center">
         {nav}
       </ul>

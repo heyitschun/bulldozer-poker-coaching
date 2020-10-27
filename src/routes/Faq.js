@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { motion } from "framer-motion";
 import axios from "axios";
 
 function Faq() {
@@ -15,13 +16,19 @@ function Faq() {
   let faqDisplay;
 
   if (Object.entries(faq).length > 0) {
-    faqDisplay = faq.map(x => {
+    faqDisplay = faq.map((x, i) => {
       return (
-        <li className="mt-5">
-          <span className="font-bold">{x.question}</span>
-          <br />
-          <span>{x.answer}</span>
-        </li>
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 1, delay: 1+(i*0.2) }}
+        >
+          <li className="mt-5">
+            <span className="font-bold">{x.question}</span>
+            <br />
+            <span>{x.answer}</span>
+          </li>
+        </motion.div>
       )})
   };
 
