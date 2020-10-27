@@ -3,5 +3,5 @@
 
 [[redirects]]
   from = "/*"
-  to = "/maintenance.html"
+  to = "/404.html"
   status = 200
