@@ -19,6 +19,7 @@ function Faq() {
     faqDisplay = faq.map((x, i) => {
       return (
         <motion.div
+          key={i}
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1, delay: 1+(i*0.2) }}
