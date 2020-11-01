@@ -1,7 +1,9 @@
+const defaultTheme = require("tailwindcss/defaultTheme");
+
 module.exports = {
   future: {
      removeDeprecatedGapUtilities: true,
-     purgeLayersByDefault: true,
+     purgeLayersByDefault: true
   },
   purge: {
     enabled: false
@@ -9,6 +11,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        "cyan": "#00c6e5",
         navy: {
           "100": "#4c6a88",
           "200": "#325576",
@@ -31,9 +34,12 @@ module.exports = {
           "800": "#2d3031",
           "900": "#161818"
         }
+      },
+      fontFamily: {
+        sans: ["Ubuntu", ...defaultTheme.fontFamily.sans]
       }
-    },
+    }
   },
   variants: {},
-  plugins: [],
+  plugins: []
 }

@@ -22,7 +22,7 @@ function Faq() {
           key={i}
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ duration: 1, delay: 1+(i*0.2) }}
+          transition={{ duration: 1, delay: 0.5+(i*0.2) }}
         >
           <li className="mt-5">
             <span className="font-bold">{x.question}</span>

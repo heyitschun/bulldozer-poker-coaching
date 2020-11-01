@@ -1,33 +1,25 @@
 import React, { useState } from "react";
 import { Link, useHistory } from "react-router-dom";
-import { motion } from "framer-motion";
-
 
 function Nav() {
   const history = useHistory();
-  const pages = ["Home", "Coaching", "Contact", "Faq"];
+  const pages = ["Home", "Coaching", "Faq", "Contact"];
   const [activePage, setActivePage] = useState("");
-  const url_path = history.location.pathname.slice(1)
+  const url_path = history.location.pathname.slice(1);
 
-  const pageHandle = (page) => {
-    setActivePage(page);
-  }
+  const pageHandler = p => {
+    setActivePage(p)
+  };
 
   const nav = pages.map((p, i) => {
     return (
-      <motion.div
+      <li
         key={i}
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 1, delay: 1+(i*.20) }}
+        className={"mx-3 py-1 px-2 tracking-widest uppercase text-xs font-bold inline " + (url_path === p.toLowerCase() ? "border-b-4 " : "" + (p === "Contact" ? "transition duration-500 bg-orange-500 border border-orange-500 rounded hover:bg-transparent cursor-pointer" : ""))}
+        onClick={() => {pageHandler(p)}}
       >
-        <li
-          className={"mx-3 tracking-widest uppercase text-sm font-bold inline " + (url_path === p.toLowerCase() ? "text-red-500" : "")}
-          onClick={() => pageHandle(p.toLowerCase())}
-        >
-          <Link to={"/"+p.toLowerCase()}>{p}</Link>
-        </li>
-      </motion.div>
+        <Link to={"/"+p.toLowerCase()}>{p}</Link>
+      </li>
     )
   });
   
