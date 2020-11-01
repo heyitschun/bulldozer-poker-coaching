@@ -20152,18 +20152,19 @@ video {
   animation: bounce 1s infinite;
 }
 
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+html {
+  overflow-y: scroll;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.content {
+  width: 80%;
+  margin-top: 2.5rem;
+}
+
+@media (min-width: 768px) {
+  .content {
+    width: 40%;
+  }
 }
 
 @media (min-width: 640px){

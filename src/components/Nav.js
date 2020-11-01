@@ -12,10 +12,12 @@ function Nav() {
   };
 
   const nav = pages.map((p, i) => {
+    let buttonStyle = "transition duration-500 bg-orange-500 border border-orange-500 rounded hover:bg-transparent cursor-pointer "
+
     return (
       <li
         key={i}
-        className={"mx-3 py-1 px-2 tracking-widest uppercase text-xs font-bold inline " + (url_path === p.toLowerCase() ? "border-b-4 " : "" + (p === "Contact" ? "transition duration-500 bg-orange-500 border border-orange-500 rounded hover:bg-transparent cursor-pointer" : ""))}
+        className={"mx-3 py-1 px-2 tracking-widest uppercase text-xs font-bold inline " + (p === "Contact" ? buttonStyle : "")}
         onClick={() => {pageHandler(p)}}
       >
         <Link to={"/"+p.toLowerCase()}>{p}</Link>

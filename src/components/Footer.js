@@ -1,4 +1,5 @@
 import React from "react";
+import Messenger from "../assets/messenger.svg";
 
 function Footer() {
   const chun =
@@ -6,7 +7,7 @@ function Footer() {
       href="https://heyitschun.com"
       rel="noopener noreferrer"
       target="_blank"
-      className="border-b-2 border-transparent hover:border-blue-500 text-blue-500"
+      className="border-b-2 border-transparent hover:border-orange-500 text-orange-500"
     >
       Chun Poon
     </a>
@@ -17,7 +18,13 @@ function Footer() {
         &copy; 2020 Bobby Justin Renner
       </div>
       <div>
-        Messenger, FB
+        <a
+          href="https://www.messenger.com/t/bobby.j.renner"
+          rel="noopener noreferrer noopener"
+          target="_blank"
+        >
+          <img src={Messenger} alt="" />
+        </a>
       </div>
       <div>
         Designed and built by { chun }
