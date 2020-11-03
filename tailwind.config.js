@@ -35,8 +35,21 @@ module.exports = {
           "900": "#161818"
         }
       },
+      height: {
+        xl: "24rem",
+        xxl: "32rem"
+      },
+      inset: {
+        "1/2": "50%",
+        "1/3": "33%"
+      },
       fontFamily: {
+        oxygen: ["Oxygen", ...defaultTheme.fontFamily.sans],
         sans: ["Ubuntu", ...defaultTheme.fontFamily.sans]
+      },
+      opacity: {
+        "80": "0.8",
+        "90": "0.9"
       }
     }
   },

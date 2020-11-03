@@ -14,7 +14,8 @@ function Contact() {
 
   return (
     <div className="content">
-      <div className="flex justify-center">
+      <h1 className="font-bold text-xl text-center">Start bulldozing</h1>
+      <div className="flex justify-center mt-5">
         <p className="w-full text-center">
           To apply for coaching, the private chat group or if you have other inquiries, please use the form below or contact me directly on {messenger}
         </p>

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -1781,6 +1783,14 @@ video {
 
 .divide-opacity-75 > :not(template) ~ :not(template){
   --divide-opacity: 0.75;
+}
+
+.divide-opacity-80 > :not(template) ~ :not(template){
+  --divide-opacity: 0.8;
+}
+
+.divide-opacity-90 > :not(template) ~ :not(template){
+  --divide-opacity: 0.9;
 }
 
 .divide-opacity-100 > :not(template) ~ :not(template){
@@ -8147,6 +8157,14 @@ video {
   --bg-opacity: 0.75;
 }
 
+.bg-opacity-80{
+  --bg-opacity: 0.8;
+}
+
+.bg-opacity-90{
+  --bg-opacity: 0.9;
+}
+
 .bg-opacity-100{
   --bg-opacity: 1;
 }
@@ -8167,6 +8185,14 @@ video {
   --bg-opacity: 0.75;
 }
 
+.hover\:bg-opacity-80:hover{
+  --bg-opacity: 0.8;
+}
+
+.hover\:bg-opacity-90:hover{
+  --bg-opacity: 0.9;
+}
+
 .hover\:bg-opacity-100:hover{
   --bg-opacity: 1;
 }
@@ -8185,6 +8211,14 @@ video {
 
 .focus\:bg-opacity-75:focus{
   --bg-opacity: 0.75;
+}
+
+.focus\:bg-opacity-80:focus{
+  --bg-opacity: 0.8;
+}
+
+.focus\:bg-opacity-90:focus{
+  --bg-opacity: 0.9;
 }
 
 .focus\:bg-opacity-100:focus{
@@ -10147,6 +10181,14 @@ video {
   --border-opacity: 0.75;
 }
 
+.border-opacity-80{
+  --border-opacity: 0.8;
+}
+
+.border-opacity-90{
+  --border-opacity: 0.9;
+}
+
 .border-opacity-100{
   --border-opacity: 1;
 }
@@ -10167,6 +10209,14 @@ video {
   --border-opacity: 0.75;
 }
 
+.hover\:border-opacity-80:hover{
+  --border-opacity: 0.8;
+}
+
+.hover\:border-opacity-90:hover{
+  --border-opacity: 0.9;
+}
+
 .hover\:border-opacity-100:hover{
   --border-opacity: 1;
 }
@@ -10185,6 +10235,14 @@ video {
 
 .focus\:border-opacity-75:focus{
   --border-opacity: 0.75;
+}
+
+.focus\:border-opacity-80:focus{
+  --border-opacity: 0.8;
+}
+
+.focus\:border-opacity-90:focus{
+  --border-opacity: 0.9;
 }
 
 .focus\:border-opacity-100:focus{
@@ -11145,6 +11203,10 @@ video {
   font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
+.font-oxygen{
+  font-family: Oxygen, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
 .font-hairline{
   font-weight: 100;
 }
@@ -11339,6 +11401,14 @@ video {
 
 .h-screen{
   height: 100vh;
+}
+
+.h-xl{
+  height: 24rem;
+}
+
+.h-xxl{
+  height: 32rem;
 }
 
 .text-xs{
@@ -12761,6 +12831,14 @@ video {
   opacity: 0.75;
 }
 
+.opacity-80{
+  opacity: 0.8;
+}
+
+.opacity-90{
+  opacity: 0.9;
+}
+
 .opacity-100{
   opacity: 1;
 }
@@ -12781,6 +12859,14 @@ video {
   opacity: 0.75;
 }
 
+.hover\:opacity-80:hover{
+  opacity: 0.8;
+}
+
+.hover\:opacity-90:hover{
+  opacity: 0.9;
+}
+
 .hover\:opacity-100:hover{
   opacity: 1;
 }
@@ -12799,6 +12885,14 @@ video {
 
 .focus\:opacity-75:focus{
   opacity: 0.75;
+}
+
+.focus\:opacity-80:focus{
+  opacity: 0.8;
+}
+
+.focus\:opacity-90:focus{
+  opacity: 0.9;
 }
 
 .focus\:opacity-100:focus{
@@ -14753,6 +14847,14 @@ video {
   --placeholder-opacity: 0.75;
 }
 
+.placeholder-opacity-80::placeholder{
+  --placeholder-opacity: 0.8;
+}
+
+.placeholder-opacity-90::placeholder{
+  --placeholder-opacity: 0.9;
+}
+
 .placeholder-opacity-100::placeholder{
   --placeholder-opacity: 1;
 }
@@ -14771,6 +14873,14 @@ video {
 
 .focus\:placeholder-opacity-75:focus::placeholder{
   --placeholder-opacity: 0.75;
+}
+
+.focus\:placeholder-opacity-80:focus::placeholder{
+  --placeholder-opacity: 0.8;
+}
+
+.focus\:placeholder-opacity-90:focus::placeholder{
+  --placeholder-opacity: 0.9;
 }
 
 .focus\:placeholder-opacity-100:focus::placeholder{
@@ -14819,6 +14929,20 @@ video {
   left: auto;
 }
 
+.inset-1\/2{
+  top: 50%;
+  right: 50%;
+  bottom: 50%;
+  left: 50%;
+}
+
+.inset-1\/3{
+  top: 33%;
+  right: 33%;
+  bottom: 33%;
+  left: 33%;
+}
+
 .inset-y-0{
   top: 0;
   bottom: 0;
@@ -14837,6 +14961,26 @@ video {
 .inset-x-auto{
   right: auto;
   left: auto;
+}
+
+.inset-y-1\/2{
+  top: 50%;
+  bottom: 50%;
+}
+
+.inset-x-1\/2{
+  right: 50%;
+  left: 50%;
+}
+
+.inset-y-1\/3{
+  top: 33%;
+  bottom: 33%;
+}
+
+.inset-x-1\/3{
+  right: 33%;
+  left: 33%;
 }
 
 .top-0{
@@ -14869,6 +15013,38 @@ video {
 
 .left-auto{
   left: auto;
+}
+
+.top-1\/2{
+  top: 50%;
+}
+
+.right-1\/2{
+  right: 50%;
+}
+
+.bottom-1\/2{
+  bottom: 50%;
+}
+
+.left-1\/2{
+  left: 50%;
+}
+
+.top-1\/3{
+  top: 33%;
+}
+
+.right-1\/3{
+  right: 33%;
+}
+
+.bottom-1\/3{
+  bottom: 33%;
+}
+
+.left-1\/3{
+  left: 33%;
 }
 
 .resize-none{
@@ -16927,6 +17103,14 @@ video {
   --text-opacity: 0.75;
 }
 
+.text-opacity-80{
+  --text-opacity: 0.8;
+}
+
+.text-opacity-90{
+  --text-opacity: 0.9;
+}
+
 .text-opacity-100{
   --text-opacity: 1;
 }
@@ -16947,6 +17131,14 @@ video {
   --text-opacity: 0.75;
 }
 
+.hover\:text-opacity-80:hover{
+  --text-opacity: 0.8;
+}
+
+.hover\:text-opacity-90:hover{
+  --text-opacity: 0.9;
+}
+
 .hover\:text-opacity-100:hover{
   --text-opacity: 1;
 }
@@ -16965,6 +17157,14 @@ video {
 
 .focus\:text-opacity-75:focus{
   --text-opacity: 0.75;
+}
+
+.focus\:text-opacity-80:focus{
+  --text-opacity: 0.8;
+}
+
+.focus\:text-opacity-90:focus{
+  --text-opacity: 0.9;
 }
 
 .focus\:text-opacity-100:focus{
@@ -21370,6 +21570,14 @@ html {
 
   .sm\:divide-opacity-75 > :not(template) ~ :not(template){
     --divide-opacity: 0.75;
+  }
+
+  .sm\:divide-opacity-80 > :not(template) ~ :not(template){
+    --divide-opacity: 0.8;
+  }
+
+  .sm\:divide-opacity-90 > :not(template) ~ :not(template){
+    --divide-opacity: 0.9;
   }
 
   .sm\:divide-opacity-100 > :not(template) ~ :not(template){
@@ -27736,6 +27944,14 @@ html {
     --bg-opacity: 0.75;
   }
 
+  .sm\:bg-opacity-80{
+    --bg-opacity: 0.8;
+  }
+
+  .sm\:bg-opacity-90{
+    --bg-opacity: 0.9;
+  }
+
   .sm\:bg-opacity-100{
     --bg-opacity: 1;
   }
@@ -27756,6 +27972,14 @@ html {
     --bg-opacity: 0.75;
   }
 
+  .sm\:hover\:bg-opacity-80:hover{
+    --bg-opacity: 0.8;
+  }
+
+  .sm\:hover\:bg-opacity-90:hover{
+    --bg-opacity: 0.9;
+  }
+
   .sm\:hover\:bg-opacity-100:hover{
     --bg-opacity: 1;
   }
@@ -27774,6 +27998,14 @@ html {
 
   .sm\:focus\:bg-opacity-75:focus{
     --bg-opacity: 0.75;
+  }
+
+  .sm\:focus\:bg-opacity-80:focus{
+    --bg-opacity: 0.8;
+  }
+
+  .sm\:focus\:bg-opacity-90:focus{
+    --bg-opacity: 0.9;
   }
 
   .sm\:focus\:bg-opacity-100:focus{
@@ -29736,6 +29968,14 @@ html {
     --border-opacity: 0.75;
   }
 
+  .sm\:border-opacity-80{
+    --border-opacity: 0.8;
+  }
+
+  .sm\:border-opacity-90{
+    --border-opacity: 0.9;
+  }
+
   .sm\:border-opacity-100{
     --border-opacity: 1;
   }
@@ -29756,6 +29996,14 @@ html {
     --border-opacity: 0.75;
   }
 
+  .sm\:hover\:border-opacity-80:hover{
+    --border-opacity: 0.8;
+  }
+
+  .sm\:hover\:border-opacity-90:hover{
+    --border-opacity: 0.9;
+  }
+
   .sm\:hover\:border-opacity-100:hover{
     --border-opacity: 1;
   }
@@ -29774,6 +30022,14 @@ html {
 
   .sm\:focus\:border-opacity-75:focus{
     --border-opacity: 0.75;
+  }
+
+  .sm\:focus\:border-opacity-80:focus{
+    --border-opacity: 0.8;
+  }
+
+  .sm\:focus\:border-opacity-90:focus{
+    --border-opacity: 0.9;
   }
 
   .sm\:focus\:border-opacity-100:focus{
@@ -30734,6 +30990,10 @@ html {
     font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .sm\:font-oxygen{
+    font-family: Oxygen, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  }
+
   .sm\:font-hairline{
     font-weight: 100;
   }
@@ -30928,6 +31188,14 @@ html {
 
   .sm\:h-screen{
     height: 100vh;
+  }
+
+  .sm\:h-xl{
+    height: 24rem;
+  }
+
+  .sm\:h-xxl{
+    height: 32rem;
   }
 
   .sm\:text-xs{
@@ -32350,6 +32618,14 @@ html {
     opacity: 0.75;
   }
 
+  .sm\:opacity-80{
+    opacity: 0.8;
+  }
+
+  .sm\:opacity-90{
+    opacity: 0.9;
+  }
+
   .sm\:opacity-100{
     opacity: 1;
   }
@@ -32370,6 +32646,14 @@ html {
     opacity: 0.75;
   }
 
+  .sm\:hover\:opacity-80:hover{
+    opacity: 0.8;
+  }
+
+  .sm\:hover\:opacity-90:hover{
+    opacity: 0.9;
+  }
+
   .sm\:hover\:opacity-100:hover{
     opacity: 1;
   }
@@ -32388,6 +32672,14 @@ html {
 
   .sm\:focus\:opacity-75:focus{
     opacity: 0.75;
+  }
+
+  .sm\:focus\:opacity-80:focus{
+    opacity: 0.8;
+  }
+
+  .sm\:focus\:opacity-90:focus{
+    opacity: 0.9;
   }
 
   .sm\:focus\:opacity-100:focus{
@@ -34342,6 +34634,14 @@ html {
     --placeholder-opacity: 0.75;
   }
 
+  .sm\:placeholder-opacity-80::placeholder{
+    --placeholder-opacity: 0.8;
+  }
+
+  .sm\:placeholder-opacity-90::placeholder{
+    --placeholder-opacity: 0.9;
+  }
+
   .sm\:placeholder-opacity-100::placeholder{
     --placeholder-opacity: 1;
   }
@@ -34360,6 +34660,14 @@ html {
 
   .sm\:focus\:placeholder-opacity-75:focus::placeholder{
     --placeholder-opacity: 0.75;
+  }
+
+  .sm\:focus\:placeholder-opacity-80:focus::placeholder{
+    --placeholder-opacity: 0.8;
+  }
+
+  .sm\:focus\:placeholder-opacity-90:focus::placeholder{
+    --placeholder-opacity: 0.9;
   }
 
   .sm\:focus\:placeholder-opacity-100:focus::placeholder{
@@ -34408,6 +34716,20 @@ html {
     left: auto;
   }
 
+  .sm\:inset-1\/2{
+    top: 50%;
+    right: 50%;
+    bottom: 50%;
+    left: 50%;
+  }
+
+  .sm\:inset-1\/3{
+    top: 33%;
+    right: 33%;
+    bottom: 33%;
+    left: 33%;
+  }
+
   .sm\:inset-y-0{
     top: 0;
     bottom: 0;
@@ -34426,6 +34748,26 @@ html {
   .sm\:inset-x-auto{
     right: auto;
     left: auto;
+  }
+
+  .sm\:inset-y-1\/2{
+    top: 50%;
+    bottom: 50%;
+  }
+
+  .sm\:inset-x-1\/2{
+    right: 50%;
+    left: 50%;
+  }
+
+  .sm\:inset-y-1\/3{
+    top: 33%;
+    bottom: 33%;
+  }
+
+  .sm\:inset-x-1\/3{
+    right: 33%;
+    left: 33%;
   }
 
   .sm\:top-0{
@@ -34458,6 +34800,38 @@ html {
 
   .sm\:left-auto{
     left: auto;
+  }
+
+  .sm\:top-1\/2{
+    top: 50%;
+  }
+
+  .sm\:right-1\/2{
+    right: 50%;
+  }
+
+  .sm\:bottom-1\/2{
+    bottom: 50%;
+  }
+
+  .sm\:left-1\/2{
+    left: 50%;
+  }
+
+  .sm\:top-1\/3{
+    top: 33%;
+  }
+
+  .sm\:right-1\/3{
+    right: 33%;
+  }
+
+  .sm\:bottom-1\/3{
+    bottom: 33%;
+  }
+
+  .sm\:left-1\/3{
+    left: 33%;
   }
 
   .sm\:resize-none{
@@ -36516,6 +36890,14 @@ html {
     --text-opacity: 0.75;
   }
 
+  .sm\:text-opacity-80{
+    --text-opacity: 0.8;
+  }
+
+  .sm\:text-opacity-90{
+    --text-opacity: 0.9;
+  }
+
   .sm\:text-opacity-100{
     --text-opacity: 1;
   }
@@ -36536,6 +36918,14 @@ html {
     --text-opacity: 0.75;
   }
 
+  .sm\:hover\:text-opacity-80:hover{
+    --text-opacity: 0.8;
+  }
+
+  .sm\:hover\:text-opacity-90:hover{
+    --text-opacity: 0.9;
+  }
+
   .sm\:hover\:text-opacity-100:hover{
     --text-opacity: 1;
   }
@@ -36554,6 +36944,14 @@ html {
 
   .sm\:focus\:text-opacity-75:focus{
     --text-opacity: 0.75;
+  }
+
+  .sm\:focus\:text-opacity-80:focus{
+    --text-opacity: 0.8;
+  }
+
+  .sm\:focus\:text-opacity-90:focus{
+    --text-opacity: 0.9;
   }
 
   .sm\:focus\:text-opacity-100:focus{
@@ -40914,6 +41312,14 @@ html {
 
   .md\:divide-opacity-75 > :not(template) ~ :not(template){
     --divide-opacity: 0.75;
+  }
+
+  .md\:divide-opacity-80 > :not(template) ~ :not(template){
+    --divide-opacity: 0.8;
+  }
+
+  .md\:divide-opacity-90 > :not(template) ~ :not(template){
+    --divide-opacity: 0.9;
   }
 
   .md\:divide-opacity-100 > :not(template) ~ :not(template){
@@ -47280,6 +47686,14 @@ html {
     --bg-opacity: 0.75;
   }
 
+  .md\:bg-opacity-80{
+    --bg-opacity: 0.8;
+  }
+
+  .md\:bg-opacity-90{
+    --bg-opacity: 0.9;
+  }
+
   .md\:bg-opacity-100{
     --bg-opacity: 1;
   }
@@ -47300,6 +47714,14 @@ html {
     --bg-opacity: 0.75;
   }
 
+  .md\:hover\:bg-opacity-80:hover{
+    --bg-opacity: 0.8;
+  }
+
+  .md\:hover\:bg-opacity-90:hover{
+    --bg-opacity: 0.9;
+  }
+
   .md\:hover\:bg-opacity-100:hover{
     --bg-opacity: 1;
   }
@@ -47318,6 +47740,14 @@ html {
 
   .md\:focus\:bg-opacity-75:focus{
     --bg-opacity: 0.75;
+  }
+
+  .md\:focus\:bg-opacity-80:focus{
+    --bg-opacity: 0.8;
+  }
+
+  .md\:focus\:bg-opacity-90:focus{
+    --bg-opacity: 0.9;
   }
 
   .md\:focus\:bg-opacity-100:focus{
@@ -49280,6 +49710,14 @@ html {
     --border-opacity: 0.75;
   }
 
+  .md\:border-opacity-80{
+    --border-opacity: 0.8;
+  }
+
+  .md\:border-opacity-90{
+    --border-opacity: 0.9;
+  }
+
   .md\:border-opacity-100{
     --border-opacity: 1;
   }
@@ -49300,6 +49738,14 @@ html {
     --border-opacity: 0.75;
   }
 
+  .md\:hover\:border-opacity-80:hover{
+    --border-opacity: 0.8;
+  }
+
+  .md\:hover\:border-opacity-90:hover{
+    --border-opacity: 0.9;
+  }
+
   .md\:hover\:border-opacity-100:hover{
     --border-opacity: 1;
   }
@@ -49318,6 +49764,14 @@ html {
 
   .md\:focus\:border-opacity-75:focus{
     --border-opacity: 0.75;
+  }
+
+  .md\:focus\:border-opacity-80:focus{
+    --border-opacity: 0.8;
+  }
+
+  .md\:focus\:border-opacity-90:focus{
+    --border-opacity: 0.9;
   }
 
   .md\:focus\:border-opacity-100:focus{
@@ -50278,6 +50732,10 @@ html {
     font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .md\:font-oxygen{
+    font-family: Oxygen, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  }
+
   .md\:font-hairline{
     font-weight: 100;
   }
@@ -50472,6 +50930,14 @@ html {
 
   .md\:h-screen{
     height: 100vh;
+  }
+
+  .md\:h-xl{
+    height: 24rem;
+  }
+
+  .md\:h-xxl{
+    height: 32rem;
   }
 
   .md\:text-xs{
@@ -51894,6 +52360,14 @@ html {
     opacity: 0.75;
   }
 
+  .md\:opacity-80{
+    opacity: 0.8;
+  }
+
+  .md\:opacity-90{
+    opacity: 0.9;
+  }
+
   .md\:opacity-100{
     opacity: 1;
   }
@@ -51914,6 +52388,14 @@ html {
     opacity: 0.75;
   }
 
+  .md\:hover\:opacity-80:hover{
+    opacity: 0.8;
+  }
+
+  .md\:hover\:opacity-90:hover{
+    opacity: 0.9;
+  }
+
   .md\:hover\:opacity-100:hover{
     opacity: 1;
   }
@@ -51932,6 +52414,14 @@ html {
 
   .md\:focus\:opacity-75:focus{
     opacity: 0.75;
+  }
+
+  .md\:focus\:opacity-80:focus{
+    opacity: 0.8;
+  }
+
+  .md\:focus\:opacity-90:focus{
+    opacity: 0.9;
   }
 
   .md\:focus\:opacity-100:focus{
@@ -53886,6 +54376,14 @@ html {
     --placeholder-opacity: 0.75;
   }
 
+  .md\:placeholder-opacity-80::placeholder{
+    --placeholder-opacity: 0.8;
+  }
+
+  .md\:placeholder-opacity-90::placeholder{
+    --placeholder-opacity: 0.9;
+  }
+
   .md\:placeholder-opacity-100::placeholder{
     --placeholder-opacity: 1;
   }
@@ -53904,6 +54402,14 @@ html {
 
   .md\:focus\:placeholder-opacity-75:focus::placeholder{
     --placeholder-opacity: 0.75;
+  }
+
+  .md\:focus\:placeholder-opacity-80:focus::placeholder{
+    --placeholder-opacity: 0.8;
+  }
+
+  .md\:focus\:placeholder-opacity-90:focus::placeholder{
+    --placeholder-opacity: 0.9;
   }
 
   .md\:focus\:placeholder-opacity-100:focus::placeholder{
@@ -53952,6 +54458,20 @@ html {
     left: auto;
   }
 
+  .md\:inset-1\/2{
+    top: 50%;
+    right: 50%;
+    bottom: 50%;
+    left: 50%;
+  }
+
+  .md\:inset-1\/3{
+    top: 33%;
+    right: 33%;
+    bottom: 33%;
+    left: 33%;
+  }
+
   .md\:inset-y-0{
     top: 0;
     bottom: 0;
@@ -53970,6 +54490,26 @@ html {
   .md\:inset-x-auto{
     right: auto;
     left: auto;
+  }
+
+  .md\:inset-y-1\/2{
+    top: 50%;
+    bottom: 50%;
+  }
+
+  .md\:inset-x-1\/2{
+    right: 50%;
+    left: 50%;
+  }
+
+  .md\:inset-y-1\/3{
+    top: 33%;
+    bottom: 33%;
+  }
+
+  .md\:inset-x-1\/3{
+    right: 33%;
+    left: 33%;
   }
 
   .md\:top-0{
@@ -54002,6 +54542,38 @@ html {
 
   .md\:left-auto{
     left: auto;
+  }
+
+  .md\:top-1\/2{
+    top: 50%;
+  }
+
+  .md\:right-1\/2{
+    right: 50%;
+  }
+
+  .md\:bottom-1\/2{
+    bottom: 50%;
+  }
+
+  .md\:left-1\/2{
+    left: 50%;
+  }
+
+  .md\:top-1\/3{
+    top: 33%;
+  }
+
+  .md\:right-1\/3{
+    right: 33%;
+  }
+
+  .md\:bottom-1\/3{
+    bottom: 33%;
+  }
+
+  .md\:left-1\/3{
+    left: 33%;
   }
 
   .md\:resize-none{
@@ -56060,6 +56632,14 @@ html {
     --text-opacity: 0.75;
   }
 
+  .md\:text-opacity-80{
+    --text-opacity: 0.8;
+  }
+
+  .md\:text-opacity-90{
+    --text-opacity: 0.9;
+  }
+
   .md\:text-opacity-100{
     --text-opacity: 1;
   }
@@ -56080,6 +56660,14 @@ html {
     --text-opacity: 0.75;
   }
 
+  .md\:hover\:text-opacity-80:hover{
+    --text-opacity: 0.8;
+  }
+
+  .md\:hover\:text-opacity-90:hover{
+    --text-opacity: 0.9;
+  }
+
   .md\:hover\:text-opacity-100:hover{
     --text-opacity: 1;
   }
@@ -56098,6 +56686,14 @@ html {
 
   .md\:focus\:text-opacity-75:focus{
     --text-opacity: 0.75;
+  }
+
+  .md\:focus\:text-opacity-80:focus{
+    --text-opacity: 0.8;
+  }
+
+  .md\:focus\:text-opacity-90:focus{
+    --text-opacity: 0.9;
   }
 
   .md\:focus\:text-opacity-100:focus{
@@ -60458,6 +61054,14 @@ html {
 
   .lg\:divide-opacity-75 > :not(template) ~ :not(template){
     --divide-opacity: 0.75;
+  }
+
+  .lg\:divide-opacity-80 > :not(template) ~ :not(template){
+    --divide-opacity: 0.8;
+  }
+
+  .lg\:divide-opacity-90 > :not(template) ~ :not(template){
+    --divide-opacity: 0.9;
   }
 
   .lg\:divide-opacity-100 > :not(template) ~ :not(template){
@@ -66824,6 +67428,14 @@ html {
     --bg-opacity: 0.75;
   }
 
+  .lg\:bg-opacity-80{
+    --bg-opacity: 0.8;
+  }
+
+  .lg\:bg-opacity-90{
+    --bg-opacity: 0.9;
+  }
+
   .lg\:bg-opacity-100{
     --bg-opacity: 1;
   }
@@ -66844,6 +67456,14 @@ html {
     --bg-opacity: 0.75;
   }
 
+  .lg\:hover\:bg-opacity-80:hover{
+    --bg-opacity: 0.8;
+  }
+
+  .lg\:hover\:bg-opacity-90:hover{
+    --bg-opacity: 0.9;
+  }
+
   .lg\:hover\:bg-opacity-100:hover{
     --bg-opacity: 1;
   }
@@ -66862,6 +67482,14 @@ html {
 
   .lg\:focus\:bg-opacity-75:focus{
     --bg-opacity: 0.75;
+  }
+
+  .lg\:focus\:bg-opacity-80:focus{
+    --bg-opacity: 0.8;
+  }
+
+  .lg\:focus\:bg-opacity-90:focus{
+    --bg-opacity: 0.9;
   }
 
   .lg\:focus\:bg-opacity-100:focus{
@@ -68824,6 +69452,14 @@ html {
     --border-opacity: 0.75;
   }
 
+  .lg\:border-opacity-80{
+    --border-opacity: 0.8;
+  }
+
+  .lg\:border-opacity-90{
+    --border-opacity: 0.9;
+  }
+
   .lg\:border-opacity-100{
     --border-opacity: 1;
   }
@@ -68844,6 +69480,14 @@ html {
     --border-opacity: 0.75;
   }
 
+  .lg\:hover\:border-opacity-80:hover{
+    --border-opacity: 0.8;
+  }
+
+  .lg\:hover\:border-opacity-90:hover{
+    --border-opacity: 0.9;
+  }
+
   .lg\:hover\:border-opacity-100:hover{
     --border-opacity: 1;
   }
@@ -68862,6 +69506,14 @@ html {
 
   .lg\:focus\:border-opacity-75:focus{
     --border-opacity: 0.75;
+  }
+
+  .lg\:focus\:border-opacity-80:focus{
+    --border-opacity: 0.8;
+  }
+
+  .lg\:focus\:border-opacity-90:focus{
+    --border-opacity: 0.9;
   }
 
   .lg\:focus\:border-opacity-100:focus{
@@ -69822,6 +70474,10 @@ html {
     font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .lg\:font-oxygen{
+    font-family: Oxygen, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  }
+
   .lg\:font-hairline{
     font-weight: 100;
   }
@@ -70016,6 +70672,14 @@ html {
 
   .lg\:h-screen{
     height: 100vh;
+  }
+
+  .lg\:h-xl{
+    height: 24rem;
+  }
+
+  .lg\:h-xxl{
+    height: 32rem;
   }
 
   .lg\:text-xs{
@@ -71438,6 +72102,14 @@ html {
     opacity: 0.75;
   }
 
+  .lg\:opacity-80{
+    opacity: 0.8;
+  }
+
+  .lg\:opacity-90{
+    opacity: 0.9;
+  }
+
   .lg\:opacity-100{
     opacity: 1;
   }
@@ -71458,6 +72130,14 @@ html {
     opacity: 0.75;
   }
 
+  .lg\:hover\:opacity-80:hover{
+    opacity: 0.8;
+  }
+
+  .lg\:hover\:opacity-90:hover{
+    opacity: 0.9;
+  }
+
   .lg\:hover\:opacity-100:hover{
     opacity: 1;
   }
@@ -71476,6 +72156,14 @@ html {
 
   .lg\:focus\:opacity-75:focus{
     opacity: 0.75;
+  }
+
+  .lg\:focus\:opacity-80:focus{
+    opacity: 0.8;
+  }
+
+  .lg\:focus\:opacity-90:focus{
+    opacity: 0.9;
   }
 
   .lg\:focus\:opacity-100:focus{
@@ -73430,6 +74118,14 @@ html {
     --placeholder-opacity: 0.75;
   }
 
+  .lg\:placeholder-opacity-80::placeholder{
+    --placeholder-opacity: 0.8;
+  }
+
+  .lg\:placeholder-opacity-90::placeholder{
+    --placeholder-opacity: 0.9;
+  }
+
   .lg\:placeholder-opacity-100::placeholder{
     --placeholder-opacity: 1;
   }
@@ -73448,6 +74144,14 @@ html {
 
   .lg\:focus\:placeholder-opacity-75:focus::placeholder{
     --placeholder-opacity: 0.75;
+  }
+
+  .lg\:focus\:placeholder-opacity-80:focus::placeholder{
+    --placeholder-opacity: 0.8;
+  }
+
+  .lg\:focus\:placeholder-opacity-90:focus::placeholder{
+    --placeholder-opacity: 0.9;
   }
 
   .lg\:focus\:placeholder-opacity-100:focus::placeholder{
@@ -73496,6 +74200,20 @@ html {
     left: auto;
   }
 
+  .lg\:inset-1\/2{
+    top: 50%;
+    right: 50%;
+    bottom: 50%;
+    left: 50%;
+  }
+
+  .lg\:inset-1\/3{
+    top: 33%;
+    right: 33%;
+    bottom: 33%;
+    left: 33%;
+  }
+
   .lg\:inset-y-0{
     top: 0;
     bottom: 0;
@@ -73514,6 +74232,26 @@ html {
   .lg\:inset-x-auto{
     right: auto;
     left: auto;
+  }
+
+  .lg\:inset-y-1\/2{
+    top: 50%;
+    bottom: 50%;
+  }
+
+  .lg\:inset-x-1\/2{
+    right: 50%;
+    left: 50%;
+  }
+
+  .lg\:inset-y-1\/3{
+    top: 33%;
+    bottom: 33%;
+  }
+
+  .lg\:inset-x-1\/3{
+    right: 33%;
+    left: 33%;
   }
 
   .lg\:top-0{
@@ -73546,6 +74284,38 @@ html {
 
   .lg\:left-auto{
     left: auto;
+  }
+
+  .lg\:top-1\/2{
+    top: 50%;
+  }
+
+  .lg\:right-1\/2{
+    right: 50%;
+  }
+
+  .lg\:bottom-1\/2{
+    bottom: 50%;
+  }
+
+  .lg\:left-1\/2{
+    left: 50%;
+  }
+
+  .lg\:top-1\/3{
+    top: 33%;
+  }
+
+  .lg\:right-1\/3{
+    right: 33%;
+  }
+
+  .lg\:bottom-1\/3{
+    bottom: 33%;
+  }
+
+  .lg\:left-1\/3{
+    left: 33%;
   }
 
   .lg\:resize-none{
@@ -75604,6 +76374,14 @@ html {
     --text-opacity: 0.75;
   }
 
+  .lg\:text-opacity-80{
+    --text-opacity: 0.8;
+  }
+
+  .lg\:text-opacity-90{
+    --text-opacity: 0.9;
+  }
+
   .lg\:text-opacity-100{
     --text-opacity: 1;
   }
@@ -75624,6 +76402,14 @@ html {
     --text-opacity: 0.75;
   }
 
+  .lg\:hover\:text-opacity-80:hover{
+    --text-opacity: 0.8;
+  }
+
+  .lg\:hover\:text-opacity-90:hover{
+    --text-opacity: 0.9;
+  }
+
   .lg\:hover\:text-opacity-100:hover{
     --text-opacity: 1;
   }
@@ -75642,6 +76428,14 @@ html {
 
   .lg\:focus\:text-opacity-75:focus{
     --text-opacity: 0.75;
+  }
+
+  .lg\:focus\:text-opacity-80:focus{
+    --text-opacity: 0.8;
+  }
+
+  .lg\:focus\:text-opacity-90:focus{
+    --text-opacity: 0.9;
   }
 
   .lg\:focus\:text-opacity-100:focus{
@@ -80002,6 +80796,14 @@ html {
 
   .xl\:divide-opacity-75 > :not(template) ~ :not(template){
     --divide-opacity: 0.75;
+  }
+
+  .xl\:divide-opacity-80 > :not(template) ~ :not(template){
+    --divide-opacity: 0.8;
+  }
+
+  .xl\:divide-opacity-90 > :not(template) ~ :not(template){
+    --divide-opacity: 0.9;
   }
 
   .xl\:divide-opacity-100 > :not(template) ~ :not(template){
@@ -86368,6 +87170,14 @@ html {
     --bg-opacity: 0.75;
   }
 
+  .xl\:bg-opacity-80{
+    --bg-opacity: 0.8;
+  }
+
+  .xl\:bg-opacity-90{
+    --bg-opacity: 0.9;
+  }
+
   .xl\:bg-opacity-100{
     --bg-opacity: 1;
   }
@@ -86388,6 +87198,14 @@ html {
     --bg-opacity: 0.75;
   }
 
+  .xl\:hover\:bg-opacity-80:hover{
+    --bg-opacity: 0.8;
+  }
+
+  .xl\:hover\:bg-opacity-90:hover{
+    --bg-opacity: 0.9;
+  }
+
   .xl\:hover\:bg-opacity-100:hover{
     --bg-opacity: 1;
   }
@@ -86406,6 +87224,14 @@ html {
 
   .xl\:focus\:bg-opacity-75:focus{
     --bg-opacity: 0.75;
+  }
+
+  .xl\:focus\:bg-opacity-80:focus{
+    --bg-opacity: 0.8;
+  }
+
+  .xl\:focus\:bg-opacity-90:focus{
+    --bg-opacity: 0.9;
   }
 
   .xl\:focus\:bg-opacity-100:focus{
@@ -88368,6 +89194,14 @@ html {
     --border-opacity: 0.75;
   }
 
+  .xl\:border-opacity-80{
+    --border-opacity: 0.8;
+  }
+
+  .xl\:border-opacity-90{
+    --border-opacity: 0.9;
+  }
+
   .xl\:border-opacity-100{
     --border-opacity: 1;
   }
@@ -88388,6 +89222,14 @@ html {
     --border-opacity: 0.75;
   }
 
+  .xl\:hover\:border-opacity-80:hover{
+    --border-opacity: 0.8;
+  }
+
+  .xl\:hover\:border-opacity-90:hover{
+    --border-opacity: 0.9;
+  }
+
   .xl\:hover\:border-opacity-100:hover{
     --border-opacity: 1;
   }
@@ -88406,6 +89248,14 @@ html {
 
   .xl\:focus\:border-opacity-75:focus{
     --border-opacity: 0.75;
+  }
+
+  .xl\:focus\:border-opacity-80:focus{
+    --border-opacity: 0.8;
+  }
+
+  .xl\:focus\:border-opacity-90:focus{
+    --border-opacity: 0.9;
   }
 
   .xl\:focus\:border-opacity-100:focus{
@@ -89366,6 +90216,10 @@ html {
     font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .xl\:font-oxygen{
+    font-family: Oxygen, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  }
+
   .xl\:font-hairline{
     font-weight: 100;
   }
@@ -89560,6 +90414,14 @@ html {
 
   .xl\:h-screen{
     height: 100vh;
+  }
+
+  .xl\:h-xl{
+    height: 24rem;
+  }
+
+  .xl\:h-xxl{
+    height: 32rem;
   }
 
   .xl\:text-xs{
@@ -90982,6 +91844,14 @@ html {
     opacity: 0.75;
   }
 
+  .xl\:opacity-80{
+    opacity: 0.8;
+  }
+
+  .xl\:opacity-90{
+    opacity: 0.9;
+  }
+
   .xl\:opacity-100{
     opacity: 1;
   }
@@ -91002,6 +91872,14 @@ html {
     opacity: 0.75;
   }
 
+  .xl\:hover\:opacity-80:hover{
+    opacity: 0.8;
+  }
+
+  .xl\:hover\:opacity-90:hover{
+    opacity: 0.9;
+  }
+
   .xl\:hover\:opacity-100:hover{
     opacity: 1;
   }
@@ -91020,6 +91898,14 @@ html {
 
   .xl\:focus\:opacity-75:focus{
     opacity: 0.75;
+  }
+
+  .xl\:focus\:opacity-80:focus{
+    opacity: 0.8;
+  }
+
+  .xl\:focus\:opacity-90:focus{
+    opacity: 0.9;
   }
 
   .xl\:focus\:opacity-100:focus{
@@ -92974,6 +93860,14 @@ html {
     --placeholder-opacity: 0.75;
   }
 
+  .xl\:placeholder-opacity-80::placeholder{
+    --placeholder-opacity: 0.8;
+  }
+
+  .xl\:placeholder-opacity-90::placeholder{
+    --placeholder-opacity: 0.9;
+  }
+
   .xl\:placeholder-opacity-100::placeholder{
     --placeholder-opacity: 1;
   }
@@ -92992,6 +93886,14 @@ html {
 
   .xl\:focus\:placeholder-opacity-75:focus::placeholder{
     --placeholder-opacity: 0.75;
+  }
+
+  .xl\:focus\:placeholder-opacity-80:focus::placeholder{
+    --placeholder-opacity: 0.8;
+  }
+
+  .xl\:focus\:placeholder-opacity-90:focus::placeholder{
+    --placeholder-opacity: 0.9;
   }
 
   .xl\:focus\:placeholder-opacity-100:focus::placeholder{
@@ -93040,6 +93942,20 @@ html {
     left: auto;
   }
 
+  .xl\:inset-1\/2{
+    top: 50%;
+    right: 50%;
+    bottom: 50%;
+    left: 50%;
+  }
+
+  .xl\:inset-1\/3{
+    top: 33%;
+    right: 33%;
+    bottom: 33%;
+    left: 33%;
+  }
+
   .xl\:inset-y-0{
     top: 0;
     bottom: 0;
@@ -93058,6 +93974,26 @@ html {
   .xl\:inset-x-auto{
     right: auto;
     left: auto;
+  }
+
+  .xl\:inset-y-1\/2{
+    top: 50%;
+    bottom: 50%;
+  }
+
+  .xl\:inset-x-1\/2{
+    right: 50%;
+    left: 50%;
+  }
+
+  .xl\:inset-y-1\/3{
+    top: 33%;
+    bottom: 33%;
+  }
+
+  .xl\:inset-x-1\/3{
+    right: 33%;
+    left: 33%;
   }
 
   .xl\:top-0{
@@ -93090,6 +94026,38 @@ html {
 
   .xl\:left-auto{
     left: auto;
+  }
+
+  .xl\:top-1\/2{
+    top: 50%;
+  }
+
+  .xl\:right-1\/2{
+    right: 50%;
+  }
+
+  .xl\:bottom-1\/2{
+    bottom: 50%;
+  }
+
+  .xl\:left-1\/2{
+    left: 50%;
+  }
+
+  .xl\:top-1\/3{
+    top: 33%;
+  }
+
+  .xl\:right-1\/3{
+    right: 33%;
+  }
+
+  .xl\:bottom-1\/3{
+    bottom: 33%;
+  }
+
+  .xl\:left-1\/3{
+    left: 33%;
   }
 
   .xl\:resize-none{
@@ -95148,6 +96116,14 @@ html {
     --text-opacity: 0.75;
   }
 
+  .xl\:text-opacity-80{
+    --text-opacity: 0.8;
+  }
+
+  .xl\:text-opacity-90{
+    --text-opacity: 0.9;
+  }
+
   .xl\:text-opacity-100{
     --text-opacity: 1;
   }
@@ -95168,6 +96144,14 @@ html {
     --text-opacity: 0.75;
   }
 
+  .xl\:hover\:text-opacity-80:hover{
+    --text-opacity: 0.8;
+  }
+
+  .xl\:hover\:text-opacity-90:hover{
+    --text-opacity: 0.9;
+  }
+
   .xl\:hover\:text-opacity-100:hover{
     --text-opacity: 1;
   }
@@ -95186,6 +96170,14 @@ html {
 
   .xl\:focus\:text-opacity-75:focus{
     --text-opacity: 0.75;
+  }
+
+  .xl\:focus\:text-opacity-80:focus{
+    --text-opacity: 0.8;
+  }
+
+  .xl\:focus\:text-opacity-90:focus{
+    --text-opacity: 0.9;
   }
 
   .xl\:focus\:text-opacity-100:focus{
