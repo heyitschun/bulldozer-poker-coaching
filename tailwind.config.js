@@ -45,7 +45,8 @@ module.exports = {
       },
       fontFamily: {
         oxygen: ["Oxygen", ...defaultTheme.fontFamily.sans],
-        sans: ["Ubuntu", ...defaultTheme.fontFamily.sans]
+        sans: ["Ubuntu", ...defaultTheme.fontFamily.sans],
+        ubuntuc: ["Ubuntu Condensed", ...defaultTheme.fontFamily.sans]
       },
       opacity: {
         "80": "0.8",
