@@ -12,7 +12,7 @@ function Nav() {
   };
 
   const nav = pages.map((p, i) => {
-    let buttonStyle = "transition duration-500 bg-orange-500 border border-orange-500 rounded hover:bg-transparent cursor-pointer "
+    let buttonStyle = "transition duration-500 bg-orange-500 border border-orange-500 rounded hover:bg-transparent cursor-pointer hover:text-orange-500 "
     console.log(activePage, url_path)
 
     return (

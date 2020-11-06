@@ -13,6 +13,7 @@ function App() {
         <div className="flex flex-1 justify-center">
           <Switch>
             <Route exact path="/" component={Home} />
+            <Route path="/home" component={Home} />
             <Route path="/faq" component={Faq} />
             <Route path="/contact" component={Contact} />
             <Route path="/coaching" component={Coaching} />
