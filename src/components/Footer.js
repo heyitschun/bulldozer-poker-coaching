@@ -7,7 +7,7 @@ function Footer() {
       href="https://heyitschun.com"
       rel="noopener noreferrer"
       target="_blank"
-      className="border-b-2 border-transparent hover:border-orange-500 text-orange-500"
+      className="transition duration-300 hover:opacity-50 text-cyan"
     >
       Chun Poon
     </a>

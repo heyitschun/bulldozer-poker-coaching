@@ -2,10 +2,10 @@
   "data": [
     {
       "question": "How much do you charge?",
-      "answer": "Coaching rates can vary depending on my availability, time required to prepare material, etc. But they are always negotiable. If you book multiple session in advance you might be eligible for a discount, so please just send me a message if you would like to get an estimate."
+      "answer": "Coaching rates can vary depending on my availability, time required to prepare material, etc. But they are always negotiable. If you book multiple session in advance you might be eligible for a discount, so just send me a message if you are interested and we will work something out."
     },
     {
-      "question": "Do I need to own a solver to get your coaching?",
+      "question": "Do I need to own a solver or other software to get your coaching?",
       "answer": "No. If you already own a solver and know how to use it, great! It will be easier for you to review the material we cover, but it's not a requirement for my coaching. I will send you plenty of screenshots of solutions for important scenarios. Solvers are very sensitive to the parameters you use. So if you don't have much experience with solvers and don't have any guidance, then rushing to buy one can actually hurt your progress."
     },
     {
@@ -21,8 +21,8 @@
       "answer": "Lol no."
     },
     {
-      "question": "Will I be able to beat 50NL with your guidance?",
-      "answer": "Oh, you are definitely fucked."
+      "question": "What formats do you teach",
+      "answer": "Live/ online cash games and heads-up No Limit Hold'em."
     },
     {
       "question": "Will I be able to beat 500NL with your guidance?",
